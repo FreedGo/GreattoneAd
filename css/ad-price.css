@@ -197,26 +197,88 @@
 
 
 .body-wrap-app{
-	width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
-	height: 1300px;
+	/*height: 1300px;*/
+	background-color: #dedede;
 }
 .app-ad-warp{
-	width: 640px;
-	height: 1136px;
+	width: 320px;
+	height: 568px;
 	position: relative;
+	margin: 100px 140px;
 }
 .app-ad-warp-1{
 	background: url(../images/app-ad-1.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
 }
 .app-ad-warp-2{
-	background: url(../images/app-ad-2.jpg);
+	 background: url(../images/app-ad-2.jpg);
+	 -webkit-background-size:cover;
+	 background-size:cover;
+ }
+.app-ad-warp-3{
+	background: url(../images/app-ad-3.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
 }
+.app-ad-warp-4{
+	background: url(../images/app-ad-4.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
+}
+.app-ad-warp-5{
+	background: url(../images/app-ad-5.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
+}
+.app-ad-warp-6{
+	background: url(../images/app-ad-6.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
+}
+
+
 .app-ad-1-1{
 	left: -70px;
-	top: 854px;
+	top: 426px;
 }
 .app-ad-1-2{
 	left: -70px;
-	top: 854px;
+	top: 426px;
+}
+.app-ad-2-1{
+	left: -70px;
+	top: 452px;
+}
+.app-ad-2-2{
+	left: -70px;
+	top: 413px;
+}
+.app-ad-2-3{
+	left: -70px;
+	top: 374px;
+}
+.app-ad-2-4{
+	left: -70px;
+	top: 420px;
+}
+.app-ad-warp .ad-show-dec{
+	width:310px;
+}
+
+
+
+.app-ad-warp .ad-show-img img{
+	width:320px;
+	height:142px;
+}
+.app-ad-2-1 .ad-show-img img,
+.app-ad-2-2 .ad-show-img img,
+.app-ad-2-3 .ad-show-img img{
+	height:110px;
+}
+.app-ad-2-4 .ad-show-img img{
+	height:80px;
 }
