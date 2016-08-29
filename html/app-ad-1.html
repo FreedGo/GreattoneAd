@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>好琴声首页广告</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/ad-price.css"/>
+		<script src="../js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.ad-show-hide').mouseover(function(){
+					$(this).stop(true).animate({opacity:1},200);
+					$(this).children('.ad-show-dec').stop(true).slideDown(200);
+				});
+				$('.ad-show-hide').mouseout(function(){
+					$(this).stop(true).stop(true).animate({opacity:0},200);
+					$(this).children('.ad-show-dec').stop(true).slideUp(200);
+				});
+
+			})
+		</script>
+	</head>
+	<body >
+		<div class="body-wrap-app clearfix" >
+			<!--广告1-->
+			<div class="app-ad-warp app-ad-warp-1 f-l-l" >
+				
+				<div class="ad-show-list app-ad-1-1 clearfix">
+					<div class="ad-show-head f-l-l">
+						AD-1.1
+					</div>
+					<div class="ad-show-hide f-l-l">
+						<div class="ad-show-img"><img src="../images/app-ad-1.1.png"/></div>
+						<div class="ad-show-dec">
+							<h2>1.1 APP启动页广告位1</h2>
+							<p><span class="com-dec">格式：</span>JPG，PNG，GIF</p>
+							<p><span class="com-dec">尺寸：</span>640px*284px,小于100KB</p>
+							<p><span class="com-dec">报价：</span>60000元/月</p>
+							<p><span class="com-dec">说明：</span>暂无</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--广告1结束-->
+			<!--广告2-->
+			<div class="app-ad-warp app-ad-warp-2 f-l-l" >
+				
+				<div class="ad-show-list app-ad-1-2 clearfix">
+					<div class="ad-show-head f-l-l">
+						AD-1.1
+					</div>
+					<div class="ad-show-hide f-l-l">
+						<div class="ad-show-img"><img src="../images/app-ad-1.2.png"/></div>
+						<div class="ad-show-dec">
+							<h2>1.2 APP启动页广告位2</h2>
+							<p><span class="com-dec">格式：</span>JPG，PNG，GIF</p>
+							<p><span class="com-dec">尺寸：</span>640px*284px,小于100KB</p>
+							<p><span class="com-dec">报价：</span>40000元/月</p>
+							<p><span class="com-dec">说明：</span>暂无</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--广告2结束-->
+			
+		</div>
+	</body>
+</html>
