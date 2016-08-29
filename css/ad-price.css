@@ -1,0 +1,222 @@
+.f-l-l{
+	float: left;
+}
+.body-wrap{
+	width: 1200px;
+	margin: 0 auto;
+	/*background-color: #fff;*/
+	position: relative;
+}
+.pc-wrap{
+	width: 100%;
+	height: 800px;
+	background: url(../images/pc_bg.jpg) no-repeat;
+}
+.app-wrap{
+	width: 100%;
+	height: 800px;
+	background: url(../images/app_bg.jpg) no-repeat;
+}
+.pc-ad-list{
+	width: 1200px;
+	margin: 0 auto;
+}
+.pc-ad-title{
+	margin: 0 auto;
+	width: 813px;
+}
+.pc-ad-lists{
+	margin-right: 20px;
+	border: #fff solid 1px;
+	height: 80px;
+	transition: all 0.1s ease-in-out 0.1s;
+	opacity: 0.8;
+	position: relative;
+	overflow: hidden;
+}
+.pc-ad-lists:hover{
+	opacity: 1;
+	transform: translateY(-5px);
+	box-shadow:  0 0 30px rgba(255,255,255,0.8);
+}
+.pc-ad-lists img{
+	transition: all 0.5s ease-out 0s;
+	
+}
+.pc-ad-lists:hover img{
+	transform: scale(1.2);
+}
+.pc-ad-lists>a{
+	display: inline-block;
+	height: 80px;
+}
+.pc-ad-list{
+	width: 1140px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.app-list{
+	width: 1200px;
+	margin: 0 auto;
+}
+.app-ad-title{
+	width: 430px;
+	height: 600px;
+	padding-top: 150px;
+}
+.app-ad-list-left,.app-ad-list-right{
+	width: 385px;
+	height: 600px;
+}
+
+
+
+
+/*各个广告页面*/
+.ad-show-head{
+	width: 70px;
+	height: 30px;
+	background-color: #f00;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
+}
+.ad-show-hide{
+	background-color: #FFFFFF;
+	
+}
+.ad-show-dec{
+	padding: 5px;
+	font-size: 14px;
+}
+.ad-show-dec h2{
+	color: #CB7047;
+	font-size: 16px;
+	line-height: 24px;
+}
+.com-dec{
+	font-size: 14px;
+	color: #3498F0;
+	line-height: 20px;
+}
+.ad-show-hide {
+	opacity: 0;
+}
+.ad-show-list{
+	position: absolute;
+}
+.ad-1-1 .ad-show-hide{
+	width: 150px;
+}
+.ad-1-1{
+	top: 10px;
+	left: 979px;
+}
+.ad-1-2{
+	top: 164px;
+	left: 249px;
+}
+.ad-1-3{
+	top: 1670px;
+	left: -72px;
+}
+.ad-6-1{
+	top: 658px;
+	left: 90px;
+}
+.ad-7-1{
+	top: 452px;
+	left: 441px;
+}
+.ad-7-2{
+	top: 877px;
+	left: 160px;
+}
+
+
+
+
+/*app广告*/
+
+.app-ad-list-left,.app-ad-list-right{
+	position: relative;
+}
+.app-ad-lists{
+	position: absolute;
+	border-radius: 50%;
+	overflow: hidden;
+	border: #ccc 1px solid;
+	width: 120px;
+	height: 120px;
+	transition: all 0.2s ease-in-out 0s; 
+}
+
+.app-ad-lists>a{
+	display: inline-block;
+	text-align: center;
+	line-height: 120px;
+	font-size: 16px;
+	color: #fff;
+	width: 120px;
+	height: 120px;
+	
+	
+}
+.app-ad-lists:hover{
+	box-shadow: 0 0 40px rgba(255,255,255,1);
+}
+.app-ad-1{
+	top:100px;
+	right: 0;
+	background-color: #CB29B4;
+}
+.app-ad-2{
+	top:300px;
+	right: 0;
+	background-color: #1E18C3;
+}
+.app-ad-3{
+	top:500px;
+	right: 0;
+	background-color: #FF9531;
+}
+.app-ad-5{
+	top:100px;
+	left: 0;
+	background-color: #B9A795;
+}
+.app-ad-6{
+	top:300px;
+	left: 0;
+	background-color: #3ED1E3;
+}
+
+
+.body-wrap-app{
+	width: 1280px;
+	margin: 0 auto;
+	height: 1300px;
+}
+.app-ad-warp{
+	width: 640px;
+	height: 1136px;
+	position: relative;
+}
+.app-ad-warp-1{
+	background: url(../images/app-ad-1.jpg);
+}
+.app-ad-warp-2{
+	background: url(../images/app-ad-2.jpg);
+}
+.app-ad-1-1{
+	left: -70px;
+	top: 854px;
+}
+.app-ad-1-2{
+	left: -70px;
+	top: 854px;
+}

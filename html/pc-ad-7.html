@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>好琴声首页广告</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/ad-price.css"/>
+		<script src="../js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.ad-show-hide').mouseover(function(){
+					$(this).stop(true).animate({opacity:1},200);
+					$(this).children('.ad-show-dec').stop(true).slideDown(200);
+				});
+				$('.ad-show-hide').mouseout(function(){
+					$(this).stop(true).stop(true).animate({opacity:0},200);
+					$(this).children('.ad-show-dec').stop(true).slideUp(200);
+				});
+
+			})
+		</script>
+	</head>
+	<body style="background-image: url(../images/pc-ad-7.jpg);background-repeat:no-repeat;height: 2207px;">
+		<div class="body-wrap" style="background-image: url(../images/pc-ad-7-1200.jpg);background-repeat:no-repeat;height: 2207px;">
+			<!--广告1-->
+			<div class="ad-show-list ad-7-1 clearfix">
+				<div class="ad-show-head f-l-l">
+					AD-7.1
+				</div>
+				<div class="ad-show-hide f-l-l">
+					<div class="ad-show-img"><img src="../images/pc-ad-7.1.jpg"/></div>
+					<div class="ad-show-dec">
+						<h2>7.1 海选投票广告位</h2>
+						<p><span class="com-dec">格式：</span>JPG，PNG，GIF</p>
+						<p><span class="com-dec">尺寸：</span>400*300,小于200KB</p>
+						<p><span class="com-dec">报价：</span>60000元/月，180000元/季度，360000元/半年</p>
+						<p><span class="com-dec">说明：</span>此处广告共三张，页面会随机加载其中一张，每次点击<br>下方的投票按钮都会弹出此广告</p>
+					</div>
+				</div>
+			</div>
+			<!--广告1结束-->
+			<!--广告2开始-->
+			<div class="ad-show-list ad-7-2 clearfix">
+				<div class="ad-show-head f-l-l">
+					AD-7.2
+				</div>
+				<div class="ad-show-hide f-l-l">
+					<div class="ad-show-img"><img src="../images/pc-ad-7.2.jpg"/></div>
+					<div class="ad-show-dec">
+						<h2>7.2 海选视频播放下方广告位</h2>
+						<p><span class="com-dec">格式：</span>JPG，PNG，GIF</p>
+						<p><span class="com-dec">尺寸：</span>960*90,小于200KB</p>
+						<p><span class="com-dec">报价：</span>60000元/月，180000元/季度，360000元/半年</p>
+						<p><span class="com-dec">说明：</span>暂无</p>
+					</div>
+				</div>
+			</div>
+			<!--广告2结束-->
+			
+		</div>
+	</body>
+</html>
