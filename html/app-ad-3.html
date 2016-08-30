@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>好琴声首页广告</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/ad-price.css"/>
+		<script src="../js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.ad-show-hide').mouseover(function(){
+					$(this).stop(true).animate({opacity:1},200);
+					$(this).children('.ad-show-dec').stop(true).slideDown(200);
+				});
+				$('.ad-show-hide').mouseout(function(){
+					$(this).stop(true).stop(true).animate({opacity:0},200);
+					$(this).children('.ad-show-dec').stop(true).slideUp(200);
+				});
+
+			})
+		</script>
+	</head>
+	<body >
+		<div class="body-wrap-app clearfix" >
+			<!--广告1-->
+			<div class="app-ad-warp app-ad-warp-7 f-l-l" >
+				
+				<div class="ad-show-list app-ad-3-1 clearfix">
+					<div class="ad-show-head f-l-l">
+						AD-3.1
+					</div>
+					<div class="ad-show-hide f-l-l">
+						<div class="ad-show-img"><img src="../images/app-ad-2.2.png"/></div>
+						<div class="ad-show-dec">
+							<h2>3.1 音乐新闻列表广告</h2>
+							<p><span class="com-dec">格式：</span>JPG，PNG，GIF</p>
+							<p><span class="com-dec">尺寸：</span>320px*220px,小于200KB</p>
+							<p><span class="com-dec">报价：</span>20000元/月</p>
+							<p><span class="com-dec">说明：</span>音乐新闻列表广告位每三条帖子出现一次，第一次出现的广告原价，第二次出现的广告0.67折，第三次出现的广告5折。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--广告1结束-->
+			<!--广告2-->
+			<div class="app-ad-warp app-ad-warp-8 f-l-l" >
+				
+				<div class="ad-show-list app-ad-3-2 clearfix">
+					<div class="ad-show-head f-l-l">
+						AD-3.2
+					</div>
+					<div class="ad-show-hide f-l-l">
+						<div class="ad-show-img"><img src="../images/app-ad-2.2.png"/></div>
+						<div class="ad-show-dec">
+							<h2>3.2 乐器资讯列表广告</h2>
+							<p><span class="com-dec">格式：</span>JPG，PNG，GIF</p>
+							<p><span class="com-dec">尺寸：</span>320px*220px,小于200KB</p>
+							<p><span class="com-dec">报价：</span>20000元/月</p>
+							<p><span class="com-dec">说明：</span>乐器资讯列表广告位每三条帖子出现一次，第一次出现的广告原价，第二次出现的广告0.67折，第三次出现的广告5折。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--广告2结束-->
+			<!--广告3-->
+			<div class="app-ad-warp app-ad-warp-9 f-l-l" >
+
+				<div class="ad-show-list app-ad-3-3 clearfix">
+					<div class="ad-show-head f-l-l">
+						AD-3.3
+					</div>
+					<div class="ad-show-hide f-l-l">
+						<div class="ad-show-img"><img src="../images/app-ad-2.1.png"/></div>
+						<div class="ad-show-dec">
+							<h2>3.3 音乐新闻内容页</h2>
+							<p><span class="com-dec">格式：</span>JPG，PNG，GIF</p>
+							<p><span class="com-dec">尺寸：</span>320px*160px,小于200KB</p>
+							<p><span class="com-dec">报价：</span>30000元/月</p>
+							<p><span class="com-dec">说明：</span>暂无</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--广告3结束-->
+			
+		</div>
+	</body>
+</html>
